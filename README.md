@@ -43,6 +43,8 @@ The codebase is organized into modular components for reproducibility and scalab
 
 ## 🚀 Getting Started
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmanishghoshal99%2Fnebula%2Ftree%2Fmaster%2Fweb_app&project-name=nebula-web-app&repository-name=nebula-web-app)
+
 ### Prerequisites
 Ensure you have Python 3.11+ installed. Install dependencies:
 
