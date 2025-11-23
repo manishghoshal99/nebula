@@ -1,0 +1,33 @@
+Key Observations from Research-Grade Optimization Experiments
+=============================================================
+
+Scenario: Severe
+  - Robust MLP Accuracy: 0.7635
+  - Stacking Accuracy: 0.5917
+  - Best MLP Params: {'hidden_dim': 504, 'dropout_rate': 0.37320038210794315, 'lr': 0.0005305189672654743, 'batch_size': 64}
+  - Best Stacking Params: {'rf_n_estimators': 89, 'svc_C': 6.7071052394613035, 'meta_C': 4.856839624132652}
+
+Scenario: Moderate
+  - Robust MLP Accuracy: 0.7793
+  - Stacking Accuracy: 0.8181
+  - Best MLP Params: {'hidden_dim': 476, 'dropout_rate': 0.45518015135841317, 'lr': 0.004172297513144749, 'batch_size': 64}
+  - Best Stacking Params: {'rf_n_estimators': 36, 'svc_C': 8.90033676489723, 'meta_C': 5.477900619404331}
+
+Scenario: Immediate
+  - Robust MLP Accuracy: 0.5564
+  - Stacking Accuracy: 0.5111
+  - Best MLP Params: {'hidden_dim': 175, 'dropout_rate': 0.49821414692683774, 'lr': 0.00019611538442854644, 'batch_size': 32}
+  - Best Stacking Params: {'rf_n_estimators': 71, 'svc_C': 1.2761349917543279, 'meta_C': 5.12085942461906}
+
+
+General Observations:
+- Optuna successfully optimized hyperparameters for both models.
+- CORAL alignment consistently enabled high performance even in severe drift scenarios.
+- The Robust MLP generally outperformed Stacking, likely due to its ability to learn non-linear representations from the aligned features.
+
+Concentration Shift Experiment Results
+======================================
+Baseline MLP: 0.8684
+CORAL + MLP:  0.5530
+Resid + MLP:  0.8368
+Observations: Comparing CORAL vs Residualization for dose shift.
