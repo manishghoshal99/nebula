@@ -1,0 +1,19 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Envs
+.env
+.venv
+
+# Outputs (kept in repo but ignore temp files)
+notebooks/outputs/*.tmp
+
+# VS Code
+.vscode/
