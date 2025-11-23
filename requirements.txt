@@ -1,0 +1,9 @@
+pandas
+seaborn
+matplotlib
+scikit-learn
+lightgbm
+scikit-optimize
+torch
+torchvision
+torchaudio

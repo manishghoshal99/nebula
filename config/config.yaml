@@ -1,0 +1,14 @@
+data_path: "data/phpbL6t4U.arff"
+sensor_count: 16
+features_per_sensor: 8
+class_map:
+  1: "Ethanol"
+  2: "Ethylene"
+  3: "Ammonia"
+  4: "Acetaldehyde"
+  5: "Acetone"
+  6: "Toluene"
+plot_settings:
+  context: "notebook"
+  style: "whitegrid"
+  dpi: 120
