@@ -1,0 +1,91 @@
+Protocol,Design,Model,Metric,Mean,Std
+Temporal Drift,Global (Raw 128),LogReg,Accuracy,0.9241952232606437,0.08164671819004876
+Temporal Drift,Global (Raw 128),LogReg,Macro-Precision,0.9240646650917053,0.09345998022485465
+Temporal Drift,Global (Raw 128),LogReg,Macro-Recall,0.9117591218458094,0.10737950486393238
+Temporal Drift,Global (Raw 128),LogReg,Macro-F1,0.9065340831449734,0.11649387382550895
+Temporal Drift,Global (Raw 128),LogReg,MCC,0.9104987408389511,0.0933399692776157
+Temporal Drift,Global (Raw 128),SVM-RBF,Accuracy,0.9155683361290838,0.12282962958624331
+Temporal Drift,Global (Raw 128),SVM-RBF,Macro-Precision,0.9241479792419057,0.10399981577095666
+Temporal Drift,Global (Raw 128),SVM-RBF,Macro-Recall,0.8973211343328834,0.16018914343008478
+Temporal Drift,Global (Raw 128),SVM-RBF,Macro-F1,0.8961831411137146,0.16584425570780836
+Temporal Drift,Global (Raw 128),SVM-RBF,MCC,0.9001867049438383,0.14080811768833967
+Temporal Drift,Global (Raw 128),LightGBM,Accuracy,0.8602124770349069,0.1268189449001416
+Temporal Drift,Global (Raw 128),LightGBM,Macro-Precision,0.8651305785506771,0.1332806822117038
+Temporal Drift,Global (Raw 128),LightGBM,Macro-Recall,0.8332568004794177,0.1774837078161625
+Temporal Drift,Global (Raw 128),LightGBM,Macro-F1,0.8222725500093964,0.18036971471402594
+Temporal Drift,Global (Raw 128),LightGBM,MCC,0.8363343734392921,0.1438832356519757
+Temporal Drift,Batch (Dose-Suppressed 48),LogReg,Accuracy,0.9213994728013419,0.08448995624841436
+Temporal Drift,Batch (Dose-Suppressed 48),LogReg,Macro-Precision,0.9113848920404996,0.11103341413033904
+Temporal Drift,Batch (Dose-Suppressed 48),LogReg,Macro-Recall,0.9089230363072355,0.10744016831049501
+Temporal Drift,Batch (Dose-Suppressed 48),LogReg,Macro-F1,0.897434947462866,0.12850188718807817
+Temporal Drift,Batch (Dose-Suppressed 48),LogReg,MCC,0.9068918692713499,0.0972584146987873
+Temporal Drift,Batch (Dose-Suppressed 48),SVM-RBF,Accuracy,0.9043853342918763,0.12490380073820492
+Temporal Drift,Batch (Dose-Suppressed 48),SVM-RBF,Macro-Precision,0.9158617426098815,0.08901537024353545
+Temporal Drift,Batch (Dose-Suppressed 48),SVM-RBF,Macro-Recall,0.8823202882726077,0.1703229119821831
+Temporal Drift,Batch (Dose-Suppressed 48),SVM-RBF,Macro-F1,0.8829096804777947,0.1648873358884971
+Temporal Drift,Batch (Dose-Suppressed 48),SVM-RBF,MCC,0.8873618165491085,0.1409765332181095
+Temporal Drift,Batch (Dose-Suppressed 48),LightGBM,Accuracy,0.9142104001917085,0.0924117464366414
+Temporal Drift,Batch (Dose-Suppressed 48),LightGBM,Macro-Precision,0.9114437544979906,0.09415541813417506
+Temporal Drift,Batch (Dose-Suppressed 48),LightGBM,Macro-Recall,0.895008874051431,0.1303111496054894
+Temporal Drift,Batch (Dose-Suppressed 48),LightGBM,Macro-F1,0.8902717094481489,0.13094954326691186
+Temporal Drift,Batch (Dose-Suppressed 48),LightGBM,MCC,0.8974424816063173,0.1084304882068238
+Temporal Drift,Batch (Top Joint 64),LogReg,Accuracy,0.9370556753734323,0.07122182623918054
+Temporal Drift,Batch (Top Joint 64),LogReg,Macro-Precision,0.9262580479599247,0.10338045496485126
+Temporal Drift,Batch (Top Joint 64),LogReg,Macro-Recall,0.922363757704945,0.09899085149579026
+Temporal Drift,Batch (Top Joint 64),LogReg,Macro-F1,0.915271915936122,0.11428414082123767
+Temporal Drift,Batch (Top Joint 64),LogReg,MCC,0.9253518805896709,0.0830882316126206
+Temporal Drift,Batch (Top Joint 64),SVM-RBF,Accuracy,0.9326623532231009,0.0844417708919797
+Temporal Drift,Batch (Top Joint 64),SVM-RBF,Macro-Precision,0.9262391181293395,0.10847438784076828
+Temporal Drift,Batch (Top Joint 64),SVM-RBF,Macro-Recall,0.9102694633232543,0.13280114086925315
+Temporal Drift,Batch (Top Joint 64),SVM-RBF,Macro-F1,0.9084475027422229,0.13730856927148638
+Temporal Drift,Batch (Top Joint 64),SVM-RBF,MCC,0.9195998967035255,0.10022679900971966
+Temporal Drift,Batch (Top Joint 64),LightGBM,Accuracy,0.9243549804297467,0.08735964044738397
+Temporal Drift,Batch (Top Joint 64),LightGBM,Macro-Precision,0.9044802774097533,0.12491320196906447
+Temporal Drift,Batch (Top Joint 64),LightGBM,Macro-Recall,0.9005341659081417,0.13526552367932607
+Temporal Drift,Batch (Top Joint 64),LightGBM,Macro-F1,0.8915955141461629,0.14182371817172892
+Temporal Drift,Batch (Top Joint 64),LightGBM,MCC,0.9094671937495282,0.1027702323154131
+Concentration Shift,Global (Raw 128),LogReg,Accuracy,0.7302300503235084,0.24241772729837366
+Concentration Shift,Global (Raw 128),LogReg,Macro-Precision,0.6707560820548029,0.23340927544571435
+Concentration Shift,Global (Raw 128),LogReg,Macro-Recall,0.6842065548633912,0.2530760317306952
+Concentration Shift,Global (Raw 128),LogReg,Macro-F1,0.6012352011656941,0.2947412402439228
+Concentration Shift,Global (Raw 128),LogReg,MCC,0.6614330966664821,0.26535661471870303
+Concentration Shift,Global (Raw 128),SVM-RBF,Accuracy,0.543314162473041,0.31131447974601745
+Concentration Shift,Global (Raw 128),SVM-RBF,Macro-Precision,0.5658958871770641,0.35223793201742754
+Concentration Shift,Global (Raw 128),SVM-RBF,Macro-Recall,0.5406248318663313,0.29786264278357527
+Concentration Shift,Global (Raw 128),SVM-RBF,Macro-F1,0.4836541259156427,0.33120981537015054
+Concentration Shift,Global (Raw 128),SVM-RBF,MCC,0.4764272737333147,0.3424076660861533
+Concentration Shift,Global (Raw 128),LightGBM,Accuracy,0.6894320632638389,0.21290311729338715
+Concentration Shift,Global (Raw 128),LightGBM,Macro-Precision,0.6246761951983194,0.22404486848381183
+Concentration Shift,Global (Raw 128),LightGBM,Macro-Recall,0.5936505664659315,0.22997824046212637
+Concentration Shift,Global (Raw 128),LightGBM,Macro-F1,0.5684769801308527,0.2480932434720617
+Concentration Shift,Global (Raw 128),LightGBM,MCC,0.604250545400302,0.24666278734609173
+Concentration Shift,Batch (Dose-Suppressed 48),LogReg,Accuracy,0.7422717469446442,0.21809309052445514
+Concentration Shift,Batch (Dose-Suppressed 48),LogReg,Macro-Precision,0.6992041188569821,0.2014293963234128
+Concentration Shift,Batch (Dose-Suppressed 48),LogReg,Macro-Recall,0.7444171079331088,0.2072528895160331
+Concentration Shift,Batch (Dose-Suppressed 48),LogReg,Macro-F1,0.6587833292585377,0.23292187052374957
+Concentration Shift,Batch (Dose-Suppressed 48),LogReg,MCC,0.7117174986473483,0.18384059665940405
+Concentration Shift,Batch (Dose-Suppressed 48),SVM-RBF,Accuracy,0.6069015097052479,0.2762065959478695
+Concentration Shift,Batch (Dose-Suppressed 48),SVM-RBF,Macro-Precision,0.6042077425355201,0.3022949797714852
+Concentration Shift,Batch (Dose-Suppressed 48),SVM-RBF,Macro-Recall,0.568738484670403,0.28654394597245075
+Concentration Shift,Batch (Dose-Suppressed 48),SVM-RBF,Macro-F1,0.5146637676213273,0.3128807334648731
+Concentration Shift,Batch (Dose-Suppressed 48),SVM-RBF,MCC,0.5401492952611308,0.33141650277870427
+Concentration Shift,Batch (Dose-Suppressed 48),LightGBM,Accuracy,0.7097771387491014,0.20559345551077915
+Concentration Shift,Batch (Dose-Suppressed 48),LightGBM,Macro-Precision,0.6541022831538004,0.19917890824969328
+Concentration Shift,Batch (Dose-Suppressed 48),LightGBM,Macro-Recall,0.5997175380977001,0.2376569448520249
+Concentration Shift,Batch (Dose-Suppressed 48),LightGBM,Macro-F1,0.5686992875367137,0.24779586478553856
+Concentration Shift,Batch (Dose-Suppressed 48),LightGBM,MCC,0.6029381825761944,0.2511467650552498
+Concentration Shift,Batch (Top Joint 64),LogReg,Accuracy,0.5942127965492452,0.2784753803086503
+Concentration Shift,Batch (Top Joint 64),LogReg,Macro-Precision,0.640790135784032,0.22095325360031365
+Concentration Shift,Batch (Top Joint 64),LogReg,Macro-Recall,0.6242917075496336,0.2500927500278106
+Concentration Shift,Batch (Top Joint 64),LogReg,Macro-F1,0.530884735146669,0.27519630984078314
+Concentration Shift,Batch (Top Joint 64),LogReg,MCC,0.5617867309103812,0.25937459675891855
+Concentration Shift,Batch (Top Joint 64),SVM-RBF,Accuracy,0.47879223580158153,0.3045215596189685
+Concentration Shift,Batch (Top Joint 64),SVM-RBF,Macro-Precision,0.524283405793695,0.335397618061323
+Concentration Shift,Batch (Top Joint 64),SVM-RBF,Macro-Recall,0.5008865360200496,0.2988638079657503
+Concentration Shift,Batch (Top Joint 64),SVM-RBF,Macro-F1,0.4166148030531782,0.33829420257878895
+Concentration Shift,Batch (Top Joint 64),SVM-RBF,MCC,0.3942954583803484,0.350064943278614
+Concentration Shift,Batch (Top Joint 64),LightGBM,Accuracy,0.8071890726096334,0.1507502415364874
+Concentration Shift,Batch (Top Joint 64),LightGBM,Macro-Precision,0.6894905476828154,0.23523739528133464
+Concentration Shift,Batch (Top Joint 64),LightGBM,Macro-Recall,0.6633642754744409,0.23084531163207786
+Concentration Shift,Batch (Top Joint 64),LightGBM,Macro-F1,0.6532324398242576,0.236346830674498
+Concentration Shift,Batch (Top Joint 64),LightGBM,MCC,0.7295596779709715,0.21178778465948714

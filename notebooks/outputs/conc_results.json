@@ -1,0 +1,1103 @@
+{
+  "global_raw_128": {
+    "logreg": {
+      "acc_mean": 0.7302300503235084,
+      "acc_std": 0.24241772729837366,
+      "prec_mean": 0.6707560820548029,
+      "prec_std": 0.23340927544571435,
+      "rec_mean": 0.6842065548633912,
+      "rec_std": 0.2530760317306952,
+      "f1_mean": 0.6012352011656941,
+      "f1_std": 0.2947412402439228,
+      "mcc_mean": 0.6614330966664821,
+      "mcc_std": 0.26535661471870303,
+      "params": [
+        {
+          "C": 10.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 1.0
+        },
+        {
+          "C": 1.0
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          433.3,
+          4.1,
+          0.4,
+          190.3,
+          36.9,
+          0.6
+        ],
+        [
+          4.2,
+          431.8,
+          35.3,
+          1.1,
+          14.0,
+          0.1
+        ],
+        [
+          0.0,
+          2.8,
+          115.2,
+          1.2,
+          4.8,
+          6.0
+        ],
+        [
+          6.0,
+          5.0,
+          0.1,
+          253.8,
+          55.5,
+          0.5
+        ],
+        [
+          15.1,
+          88.1,
+          23.0,
+          45.1,
+          615.5,
+          151.9
+        ],
+        [
+          4.2,
+          0.3,
+          0.0,
+          6.8,
+          47.1,
+          181.9
+        ]
+      ]
+    },
+    "svm_rbf": {
+      "acc_mean": 0.543314162473041,
+      "acc_std": 0.31131447974601745,
+      "prec_mean": 0.5658958871770641,
+      "prec_std": 0.35223793201742754,
+      "rec_mean": 0.5406248318663313,
+      "rec_std": 0.29786264278357527,
+      "f1_mean": 0.4836541259156427,
+      "f1_std": 0.33120981537015054,
+      "mcc_mean": 0.4764272737333147,
+      "mcc_std": 0.3424076660861533,
+      "params": [
+        {
+          "C": 100.0,
+          "gamma": 0.001
+        },
+        {
+          "C": 10.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.001
+        },
+        {
+          "C": 10.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.001
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.001
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          549.9,
+          2.9,
+          110.1,
+          0.1,
+          2.5,
+          0.1
+        ],
+        [
+          214.1,
+          176.3,
+          95.7,
+          0.2,
+          0.2,
+          0.0
+        ],
+        [
+          38.1,
+          0.6,
+          88.4,
+          0.0,
+          2.9,
+          0.0
+        ],
+        [
+          127.1,
+          5.7,
+          20.0,
+          166.2,
+          1.3,
+          0.6
+        ],
+        [
+          256.3,
+          58.6,
+          240.4,
+          1.9,
+          377.5,
+          4.0
+        ],
+        [
+          70.5,
+          7.6,
+          7.2,
+          1.1,
+          0.7,
+          153.2
+        ]
+      ]
+    },
+    "lgbm": {
+      "acc_mean": 0.6894320632638389,
+      "acc_std": 0.21290311729338715,
+      "prec_mean": 0.6246761951983194,
+      "prec_std": 0.22404486848381183,
+      "rec_mean": 0.5936505664659315,
+      "rec_std": 0.22997824046212637,
+      "f1_mean": 0.5684769801308527,
+      "f1_std": 0.2480932434720617,
+      "mcc_mean": 0.604250545400302,
+      "mcc_std": 0.24666278734609173,
+      "params": [
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          584.6,
+          7.0,
+          12.9,
+          40.0,
+          15.8,
+          5.3
+        ],
+        [
+          81.5,
+          248.7,
+          141.8,
+          12.8,
+          1.6,
+          0.1
+        ],
+        [
+          10.0,
+          0.0,
+          110.8,
+          7.4,
+          1.8,
+          0.0
+        ],
+        [
+          90.3,
+          3.5,
+          14.9,
+          187.6,
+          10.0,
+          14.6
+        ],
+        [
+          189.8,
+          8.1,
+          91.8,
+          46.6,
+          597.2,
+          5.2
+        ],
+        [
+          4.0,
+          0.3,
+          1.1,
+          26.8,
+          19.0,
+          189.1
+        ]
+      ]
+    }
+  },
+  "batch_dose_48": {
+    "logreg": {
+      "acc_mean": 0.7422717469446442,
+      "acc_std": 0.21809309052445514,
+      "prec_mean": 0.6992041188569821,
+      "prec_std": 0.2014293963234128,
+      "rec_mean": 0.7444171079331088,
+      "rec_std": 0.2072528895160331,
+      "f1_mean": 0.6587833292585377,
+      "f1_std": 0.23292187052374957,
+      "mcc_mean": 0.7117174986473483,
+      "mcc_std": 0.18384059665940405,
+      "params": [
+        {
+          "C": 10.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 10.0
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          534.7,
+          13.1,
+          3.9,
+          105.6,
+          8.3,
+          0.0
+        ],
+        [
+          31.9,
+          450.1,
+          1.8,
+          0.8,
+          1.7,
+          0.2
+        ],
+        [
+          0.2,
+          1.5,
+          125.5,
+          0.0,
+          2.8,
+          0.0
+        ],
+        [
+          8.1,
+          16.7,
+          3.2,
+          248.1,
+          42.4,
+          2.4
+        ],
+        [
+          6.6,
+          209.7,
+          175.1,
+          34.5,
+          499.7,
+          13.1
+        ],
+        [
+          4.9,
+          4.0,
+          0.6,
+          6.7,
+          17.2,
+          206.9
+        ]
+      ]
+    },
+    "svm_rbf": {
+      "acc_mean": 0.6069015097052479,
+      "acc_std": 0.2762065959478695,
+      "prec_mean": 0.6042077425355201,
+      "prec_std": 0.3022949797714852,
+      "rec_mean": 0.568738484670403,
+      "rec_std": 0.28654394597245075,
+      "f1_mean": 0.5146637676213273,
+      "f1_std": 0.3128807334648731,
+      "mcc_mean": 0.5401492952611308,
+      "mcc_std": 0.33141650277870427,
+      "params": [
+        {
+          "C": 10.0,
+          "gamma": 0.1
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 10.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.001
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          625.9,
+          0.3,
+          35.2,
+          3.6,
+          0.5,
+          0.1
+        ],
+        [
+          229.0,
+          193.5,
+          63.7,
+          0.0,
+          0.3,
+          0.0
+        ],
+        [
+          32.1,
+          0.1,
+          95.7,
+          0.0,
+          2.1,
+          0.0
+        ],
+        [
+          116.1,
+          5.1,
+          6.0,
+          186.5,
+          1.6,
+          5.6
+        ],
+        [
+          258.5,
+          14.1,
+          229.2,
+          0.9,
+          435.0,
+          1.0
+        ],
+        [
+          44.8,
+          0.5,
+          4.8,
+          0.7,
+          37.7,
+          151.8
+        ]
+      ]
+    },
+    "lgbm": {
+      "acc_mean": 0.7097771387491014,
+      "acc_std": 0.20559345551077915,
+      "prec_mean": 0.6541022831538004,
+      "prec_std": 0.19917890824969328,
+      "rec_mean": 0.5997175380977001,
+      "rec_std": 0.2376569448520249,
+      "f1_mean": 0.5686992875367137,
+      "f1_std": 0.24779586478553856,
+      "mcc_mean": 0.6029381825761944,
+      "mcc_std": 0.2511467650552498,
+      "params": [
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        },
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        },
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          375.3,
+          1.0,
+          45.1,
+          172.1,
+          66.6,
+          5.5
+        ],
+        [
+          22.9,
+          289.1,
+          161.1,
+          7.2,
+          6.0,
+          0.2
+        ],
+        [
+          0.2,
+          0.0,
+          121.6,
+          4.3,
+          3.8,
+          0.1
+        ],
+        [
+          38.8,
+          9.9,
+          12.4,
+          189.5,
+          58.4,
+          11.9
+        ],
+        [
+          16.7,
+          4.2,
+          32.5,
+          66.3,
+          814.7,
+          4.3
+        ],
+        [
+          2.9,
+          0.2,
+          1.1,
+          17.9,
+          33.8,
+          184.4
+        ]
+      ]
+    }
+  },
+  "batch_top_joint_64": {
+    "logreg": {
+      "acc_mean": 0.5942127965492452,
+      "acc_std": 0.2784753803086503,
+      "prec_mean": 0.640790135784032,
+      "prec_std": 0.22095325360031365,
+      "rec_mean": 0.6242917075496336,
+      "rec_std": 0.2500927500278106,
+      "f1_mean": 0.530884735146669,
+      "f1_std": 0.27519630984078314,
+      "mcc_mean": 0.5617867309103812,
+      "mcc_std": 0.25937459675891855,
+      "params": [
+        {
+          "C": 10.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 10.0
+        },
+        {
+          "C": 100.0
+        },
+        {
+          "C": 10.0
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          482.0,
+          9.1,
+          45.5,
+          61.1,
+          30.0,
+          37.9
+        ],
+        [
+          129.9,
+          333.0,
+          15.8,
+          0.6,
+          6.9,
+          0.3
+        ],
+        [
+          3.0,
+          4.7,
+          109.3,
+          4.7,
+          8.1,
+          0.2
+        ],
+        [
+          5.3,
+          12.8,
+          36.7,
+          198.1,
+          28.7,
+          39.3
+        ],
+        [
+          32.9,
+          148.7,
+          330.2,
+          2.4,
+          309.1,
+          115.4
+        ],
+        [
+          4.2,
+          0.1,
+          5.5,
+          2.3,
+          6.6,
+          221.6
+        ]
+      ]
+    },
+    "svm_rbf": {
+      "acc_mean": 0.47879223580158153,
+      "acc_std": 0.3045215596189685,
+      "prec_mean": 0.524283405793695,
+      "prec_std": 0.335397618061323,
+      "rec_mean": 0.5008865360200496,
+      "rec_std": 0.2988638079657503,
+      "f1_mean": 0.4166148030531782,
+      "f1_std": 0.33829420257878895,
+      "mcc_mean": 0.3942954583803484,
+      "mcc_std": 0.350064943278614,
+      "params": [
+        {
+          "C": 10.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 10.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 10.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 10.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.01
+        },
+        {
+          "C": 100.0,
+          "gamma": 0.001
+        },
+        {
+          "C": 10.0,
+          "gamma": 0.01
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          548.9,
+          3.7,
+          112.8,
+          0.0,
+          0.1,
+          0.1
+        ],
+        [
+          170.7,
+          190.5,
+          124.8,
+          0.1,
+          0.4,
+          0.0
+        ],
+        [
+          13.3,
+          0.7,
+          114.0,
+          0.0,
+          1.9,
+          0.1
+        ],
+        [
+          118.1,
+          8.4,
+          43.3,
+          146.8,
+          1.3,
+          3.0
+        ],
+        [
+          341.2,
+          52.2,
+          330.0,
+          0.8,
+          209.5,
+          5.0
+        ],
+        [
+          72.2,
+          33.9,
+          9.3,
+          0.9,
+          1.7,
+          122.3
+        ]
+      ]
+    },
+    "lgbm": {
+      "acc_mean": 0.8071890726096334,
+      "acc_std": 0.1507502415364874,
+      "prec_mean": 0.6894905476828154,
+      "prec_std": 0.23523739528133464,
+      "rec_mean": 0.6633642754744409,
+      "rec_std": 0.23084531163207786,
+      "f1_mean": 0.6532324398242576,
+      "f1_std": 0.236346830674498,
+      "mcc_mean": 0.7295596779709715,
+      "mcc_std": 0.21178778465948714,
+      "params": [
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        },
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 300,
+          "learning_rate": 0.05,
+          "num_leaves": 31,
+          "min_child_samples": 30,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.0
+        },
+        {
+          "n_estimators": 500,
+          "learning_rate": 0.03,
+          "num_leaves": 48,
+          "min_child_samples": 20,
+          "subsample": 0.9,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 1.0
+        },
+        {
+          "n_estimators": 400,
+          "learning_rate": 0.05,
+          "num_leaves": 40,
+          "min_child_samples": 20,
+          "subsample": 0.8,
+          "subsample_freq": 1,
+          "colsample_bytree": 0.8,
+          "reg_lambda": 0.5
+        }
+      ],
+      "n_folds": 10,
+      "conf_avg": [
+        [
+          587.4,
+          7.7,
+          0.0,
+          19.5,
+          33.6,
+          17.4
+        ],
+        [
+          75.3,
+          403.7,
+          1.0,
+          2.5,
+          3.2,
+          0.8
+        ],
+        [
+          11.3,
+          1.9,
+          106.3,
+          3.3,
+          4.5,
+          2.7
+        ],
+        [
+          37.1,
+          18.3,
+          0.0,
+          182.5,
+          18.0,
+          65.0
+        ],
+        [
+          94.5,
+          44.3,
+          0.5,
+          1.3,
+          757.1,
+          41.0
+        ],
+        [
+          1.5,
+          0.1,
+          0.0,
+          4.3,
+          25.8,
+          208.6
+        ]
+      ]
+    }
+  }
+}
